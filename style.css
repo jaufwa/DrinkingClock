@@ -1,0 +1,329 @@
+html, body, table, th, tr, td, p, img, hr, ul, li, h1, h2, h3, h4, h5, div, form, fieldset {padding:0; margin:0; border:none; font-weight:normal;}
+
+body {
+	margin:0px; padding:0px;
+	background:url(./images/background_tile.png) repeat-x;
+	background-color:#FF6600;
+	font-family:Georgia, serif;
+	overflow:hidden;
+	text-align:center;
+	overflow:hidden;
+	line-height: 1.0;
+}
+#wrapper {
+	position:absolute;
+	width:608px;
+	height:656px;
+	background-repeat:no-repeat;
+	left:50%;
+	margin-left:-304px;
+	margin-top:8px;
+}
+.centre {
+	margin-left:auto;
+	margin-right:auto;
+}
+	#clock_graphic {
+		left:50%;
+		margin-left:-225px;
+		margin-top:0px;
+		position:absolute;
+		width:450px;
+		height:450px;
+		background-image:url(images/clock.png);
+		background-repeat:no-repeat;
+	}
+	#panel_graphic {
+		left:50%;
+		margin-left:-304px;
+		margin-top:472px;
+		position:absolute;
+		width:608px;
+		height:192px;
+		background-image:url(images/panel.jpg);
+		background-repeat:no-repeat;
+	}
+		#clock {
+			height: 400px;
+			width: 400px;
+			font-size:290px;
+			margin-top:95px;
+			font-family:"lucida console", monospace;
+		}
+		#shots_drunk {
+			font-size:65px;
+			font-family:"lucida console", monospace;
+			margin-top:70px;
+		}
+#author {
+	position:absolute;
+	width:600px;
+	left:50%;
+	margin-left:-300px;
+	margin-top:800px;
+	font-size:15px;
+}
+.flasher {
+	position:absolute;
+	top:99999px;
+	left:50%;
+	margin-left:-419px;
+	width:839px;
+	height:640px;
+	background-image:url(images/whiteboard.png);
+	background-repeat:no-repeat;
+}
+#intro_screen {
+
+}
+	#title {
+		margin-top:50px;
+		font-size:50px;
+		font-weight:bold;
+		letter-spacing:-2px;
+	}
+	#x100 {
+		width:262px;
+		height:106px;
+		background-image:url(images/x100.jpg);
+		margin-top:20px;
+	}
+	#instructions {
+		margin-top:30px;
+		font-size:27px;
+	}
+	#play_button {
+		width:291px;
+		height:291px;
+		background-image:url(images/play_button.jpg);
+	}
+	#disclaimer {
+		font-size:14px;
+		margin-top:3px;
+	}
+#shot_screen {
+
+}
+	#shot_screen_colour {
+		position:absolute;
+		height:600px;
+		width:800px;
+		left:20px;
+		top:20px;
+		background-color:#0099FF;
+	}
+		#shot_sign {
+			font-size:240px;
+			font-weight:bold;
+			margin-top:170px;
+		}
+.milestone_sign {
+	line-height: 1.1;
+	position:absolute;
+	left:50%;
+	margin-left:-250px;
+	width:500px;
+	font-size:330px;
+	font-weight:bold;
+	margin-top:-90px;
+}
+.karl_pic {
+	position:absolute;
+	left:0%;
+	bottom:0%;
+	margin-left:20px;
+	margin-bottom:20px;
+	width:238px;
+	height:299px;
+}
+.caption {
+	line-height: 1.2;
+	position:absolute;
+	bottom:0%;
+	margin-bottom:50px;
+	right:0%;
+	margin-right:60px;
+	width:450px;
+	height:218px;
+	text-align:left;
+}
+#screen_10 {
+
+}
+#milestone_sign_10 {
+	margin-top:-50px;
+}
+	#caption_10 {
+		font-size:47px;
+	}
+#screen_20 {
+
+}
+#milestone_sign_20 {
+	margin-top:-50px;
+}
+	#caption_20 {
+		font-size:47px;
+		margin-right:80px;
+	}
+#screen_25 {
+
+}
+	#screen_colour_25 {
+		position:absolute;
+		height:600px;
+		width:800px;
+		left:20px;
+		top:20px;
+		background-color:#0099FF;
+	}
+		#sign_25 {
+			font-size:400px;
+			font-weight:bold;
+			margin-top:10px;
+		}
+#screen_30 {
+
+}
+#milestone_sign_30 {
+	margin-top:-70px;
+}
+	#caption_30 {
+		font-size:47px;
+		margin-right:80px;
+		width:420px;
+	}
+#screen_40 {
+
+}
+	#caption_40 {
+		font-size:32px;
+		margin-right:80px;
+		width:470px;
+	}
+#milestone_sign_40 {
+	margin-top:-75px;
+}
+#screen_50 {
+
+}
+#milestone_sign_50 {
+	margin-top:-70px;
+}
+	#caption_50 {
+		font-size:50px;
+	}
+#screen_60 {
+
+}
+#milestone_sign_60 {
+	margin-top:-20px;
+}
+	#caption_60 {
+		font-size:34px;
+		width:480px;
+	}
+#screen_70 {
+
+}
+#milestone_sign_70 {
+	margin-top:-80px;
+}
+	#caption_70 {
+		font-size:46px;
+		width:480px;
+	}
+#screen_75 {
+
+}
+#screen_colour_75 {
+		position:absolute;
+		height:600px;
+		width:800px;
+		left:20px;
+		top:20px;
+		background-color:#0099FF;
+	}
+		#sign_75 {
+			font-size:400px;
+			font-weight:bold;
+			margin-top:10px;
+		}
+#screen_80 {
+
+}
+#milestone_sign_80 {
+	margin-top:-30px;
+}
+	#caption_80 {
+		font-size:40px;
+		width:480px;
+		margin-right:70px;
+	}
+#screen_90 {
+
+}
+#milestone_sign_90 {
+	margin-top:-80px;
+}
+	#caption_90 {
+		font-size:40px;
+		width:550px;
+		margin-right:20px;
+	}
+#screen_100 {
+
+}
+	#screen_colour_100 {
+		position:absolute;
+		height:600px;
+		width:800px;
+		left:20px;
+		top:20px;
+		background-color:#0099FF;
+	}
+		#sign_100 {
+			position:absolute;
+			width:800px;
+			left:50%;
+			margin-left:-400px;
+			font-size:140px;
+			font-weight:bold;
+			margin-top:10px;
+		}
+		#trophy {
+			position:absolute;
+			left:50%;
+			margin-top:160px;
+			margin-left:-120px;
+			width:205p;
+			height:402px;
+		}
+		.star {
+			position:absolute;
+			left:50%;
+			width:138px;
+			height:141px;
+			background-image:url(images/star.png);
+		}
+		#star_1 {
+			margin-top:190px;
+			margin-left:-330px;
+		}
+		#star_2 {
+			margin-top:350px;
+			margin-left:150px;
+		}
+#credits {
+	position:absolute;
+	width:750px;
+	height:750px;
+	background-repeat:no-repeat;
+	left:50%;
+	margin-left:-375px;
+	margin-top:8px;
+	line-height:150%;
+}
+	.music_credit {
+		text-align:left;
+	}
